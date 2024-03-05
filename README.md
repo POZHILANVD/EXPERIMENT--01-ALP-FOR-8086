@@ -67,5 +67,26 @@ ret
 ```
 ## Output  
 ![div](https://github.com/POZHILANVD/EXPERIMENT--01-ALP-FOR-8086/assets/144870498/c02dc969-50b3-45ea-8cdf-6276aaa861b1)
+# Program for logical operations
+org 100H
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX;
+MOV [SI+2],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+XOR AX,BX;
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+ret
+# output
+![logic](https://github.com/POZHILANVD/EXPERIMENT--01-ALP-FOR-8086/assets/144870498/c7c5a992-b91d-4026-be2f-47d510c1f2aa)
 ## Result :
  The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
