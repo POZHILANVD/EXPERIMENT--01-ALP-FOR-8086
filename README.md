@@ -20,21 +20,16 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 9.	Click on emulate to start emulation 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
-
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-
 ## Programs for arithmetic  operations
 # Addition  of 8 bit ALP 
 ```
 org 100h
-
 mov ax,0a123h;
 mov bx,0b456h;
 add ax,bx;
 mov [1234h],ax;
-
 ret
 ```
 ## Output  
@@ -42,40 +37,32 @@ ret
 ## Subtraction   of 8 bit numbers  ALP 
  ```
 org 100h
-
 mov ax,0d101h;
 mov bx,0c789h;
 sub ax,bx;
 mov [5678h],ax;
-
 ret
 ```
 ## Output  
 ![sub](https://github.com/POZHILANVD/EXPERIMENT--01-ALP-FOR-8086/assets/144870498/5afdca8c-baf0-45d1-9fbf-87c512865780)
-
 ## Multiplication alp 
 ```
 org 100h
-
 mov ax,0e112h;
 mov bx,0f131h;
 mul bx;
 mov [9101h],ax;
-
 ret
 ```
  ## Output  
 ![mult](https://github.com/POZHILANVD/EXPERIMENT--01-ALP-FOR-8086/assets/144870498/8aec9065-de57-44f1-9d9d-444d9631fdb0)
-
 ## Division alp 
 ```
 org 100h
-
 mov ax,0b161h;
 mov bx,0a415h;
 div bx;
 mov [1121h],ax;
-
 ret
 ```
 ## Output  
