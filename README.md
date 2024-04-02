@@ -1,7 +1,6 @@
-## EXPERIMENT--01-ALP-FOR-8086
-# Name :POZHILAN V D
-# Roll no : 212223240118
-# Date of experiment :
+#### Name :POZHILAN V D
+#### Roll no : 212223240118
+## EXPERIMENT-01-ALP FOR 8086
 ## Aim
 To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required:
